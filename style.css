@@ -1,46 +1,57 @@
-body{
+body {
     background-color: #1698F0;
     font-family: inter;
 }
 
-.container__foto{
+.container__foto {
     display: block;
     margin: 0 auto;
 }
 
-.container__titulo{
+.container__titulo {
     text-align: center;
-    
-    
+    font-size: 40px;
+
+
 }
 
-.container__apresentacao{
+.container__apresentacao {
     text-align: center;
     font-size: 20px;
 }
 
-.container__lista{
+.container__lista {
     display: flex;
     justify-content: center;
-}
-
-
-    .container__emprego {
-  background-color: #16DDF0;
-  padding: 0.5rem 1rem;
-  margin: 1rem auto;
-  display: inline-block;
-  max-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* sombra dos lados */
-  border-radius: 8px;
-  text-align: center;
-}
-
-.container__section{
+    background-color: #16ACF0;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    max-width: 200px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
     text-align: center;
-}    
 
-.container__caixa-experiencia{
+
+}
+
+
+
+.container__emprego {
+    background-color: #16DDF0;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    display: inline-block;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.container__section {
+    text-align: center;
+}
+
+.container__caixa-experiencia {
     background-color: #5E0AF2;
     padding: 1.5rem;
     margin: 1rem auto;
@@ -54,12 +65,13 @@ body{
 }
 
 footer a {
-  color: #940AF2; /* cor padrão dos links */
-  text-decoration: none;
-  transition: color 0.3s ease;
+    color: #940AF2;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 footer a:hover {
-  color: #1622F0; /* cor ao passar o mouse */
-  text-decoration: underline; /* ou outro efeito que quiser */
+    color: #1622F0;
+    text-decoration: underline;
+   
 }
