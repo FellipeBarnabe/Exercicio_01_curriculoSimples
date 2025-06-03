@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo simples</title>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+<title>Currículo simples</title>
 </head>
 
 <body>
-    <h1>Fellipe Barnabé</h1>
+    <h1 class="container__titulo">Fellipe Barnabé</h1>
     <a href="https://i.postimg.cc/mrcwvTbS/Fellipe.jpg" target="_blank">
-        <img src="https://i.postimg.cc/mrcwvTbS/Fellipe.jpg" alt="Minha imagem" width="200px">
+        <img src="https://i.postimg.cc/mrcwvTbS/Fellipe.jpg" alt="Minha imagem" width="200px" class="container__foto">
     </a>
-    <p>Ola! Meu nome é Fellipe Barnabé alves, sou músico, filósofo e programador.</p>
-    <ul>
-        <li>(PCL) Siems</li>
-        <li>VS Code</li>
-        <li>Git e Github</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-    </ul>
+    <p class="container__apresentacao">Ola! Meu nome é Fellipe Barnabé alves, sou <strong>músico</strong>,
+        <strong>Filósofo</strong> e
+        <strong>programador.</strong>
+    </p>
+    <div class="container__lista">
+        <ul>
+            <li>(PCL) Siems</li>
+            <li>VS Code</li>
+            <li>Git e Github</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Angular 17</li>
+        </ul>
+    </div>
+    <div class="container__section">
     <section>
-        <h3>Progamador (PLC) na fabrica da Jeep</h3>
-        <p>Experencia como programador na área de automação na fabrica da jeep<br> Profissional especializado em
+        <div class="container__emprego">
+            <h3 >Progamador (PLC) na fabrica da Jeep</h3>
+        </div>
+        <div class="container__caixa-experiencia">
+        <p class="container__experiencia">Experencia como programador na área de automação na fabrica da jeep<br> Profissional especializado em
             programação, diagnóstico e otimização de PLCs em ambientes industriais, com foco na indústria automotiva.
             Experiência em Siemens TIA Portal, Rockwell Studio 5000 e redes industriais como PROFINET e Ethernet/IP.
             <br> Atuação em manutenção preditiva, solução de problemas e integração de sistemas automatizados, incluindo
@@ -31,14 +43,20 @@
             Comprometido com a eficiência operacional e a redução de downtime, garantindo processos produtivos mais
             seguros e eficazes.
         </p>
+        </div>
     </section>
+    </div>
     <footer>
         <h3>Contatos</h3>
-        <ul>
-            <li>Email: <a href="fellipebarnabe.stack@gmail.com">fellipebarnabe.stack@gmail.com</a></li>
-            <li>Telefone: <a href="+558199310-0585">8199310-0585</a></li>
+        <address>
+            <ul>
 
-        </ul>
+                <li>Email: <a href="mailto:fellipebarnabe.stack@gmail.com">fellipebarnabe.stack@gmail.com</a></li>
+                <li>Telefone: <a href="tel:+558199310-0585">8199310-0585</a></li>
+                <li>Github: <a href="https://github.com/FellipeBarnabe">Github.com</a></li>
+
+            </ul>
+        </address>
     </footer>
 </body>
 
