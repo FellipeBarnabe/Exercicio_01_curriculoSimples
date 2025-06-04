@@ -74,6 +74,6 @@ footer a {
 
 /* Estilo ao passar o mouse nos links do rodapé */
 footer a:hover {
-    color: #1622F0; /* Cor azul ao passar o mouse */
+    color: #f6f6f7; /* Cor azul ao passar o mouse */
     text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
