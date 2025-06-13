@@ -77,3 +77,9 @@ footer a:hover {
     color: #f6f6f7; /* Cor azul ao passar o mouse */
     text-decoration: underline; /* Sublinhado ao passar o mouse */
 }
+
+.lista_grid{
+    display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 0.5rem 2rem;
+}
